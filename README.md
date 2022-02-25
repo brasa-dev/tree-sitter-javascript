@@ -1,4 +1,4 @@
-tree-sitter-javascript
+tree-sitter-roseta-javascript
 ===========================
 
 [![CI Status](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml/badge.svg)](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)

@@ -696,11 +696,11 @@
             "named": false
           },
           {
-            "type": "in",
+            "type": "em",
             "named": false
           },
           {
-            "type": "instanceof",
+            "type": "instânciade",
             "named": false
           },
           {
@@ -1248,7 +1248,7 @@
             "named": false
           },
           {
-            "type": "let",
+            "type": "def",
             "named": false
           },
           {
@@ -1296,11 +1296,11 @@
         "required": true,
         "types": [
           {
-            "type": "in",
+            "type": "do",
             "named": false
           },
           {
-            "type": "of",
+            "type": "em",
             "named": false
           }
         ]
@@ -1975,7 +1975,7 @@
             "named": false
           },
           {
-            "type": "let",
+            "type": "def",
             "named": false
           }
         ]
@@ -2841,11 +2841,11 @@
             "named": false
           },
           {
-            "type": "typeof",
+            "type": "tipode",
             "named": false
           },
           {
-            "type": "void",
+            "type": "vazio",
             "named": false
           },
           {
@@ -3223,36 +3223,36 @@
     "named": false
   },
   {
-    "type": "as",
+    "type": "alvo",
     "named": false
   },
   {
-    "type": "async",
+    "type": "assinc",
     "named": false
   },
   {
-    "type": "await",
+    "type": "capture",
     "named": false
   },
   {
-    "type": "break",
+    "type": "caso",
     "named": false
   },
   {
-    "type": "case",
+    "type": "classe",
     "named": false
   },
   {
-    "type": "catch",
-    "named": false
-  },
-  {
-    "type": "class",
+    "type": "com",
     "named": false
   },
   {
     "type": "comment",
     "named": true
+  },
+  {
+    "type": "como",
+    "named": false
   },
   {
     "type": "const",
@@ -3263,11 +3263,11 @@
     "named": false
   },
   {
-    "type": "debugger",
+    "type": "de",
     "named": false
   },
   {
-    "type": "default",
+    "type": "def",
     "named": false
   },
   {
@@ -3275,11 +3275,19 @@
     "named": false
   },
   {
+    "type": "depurador",
+    "named": false
+  },
+  {
     "type": "do",
     "named": false
   },
   {
-    "type": "else",
+    "type": "em",
+    "named": false
+  },
+  {
+    "type": "enquanto",
     "named": false
   },
   {
@@ -3287,11 +3295,23 @@
     "named": true
   },
   {
-    "type": "export",
+    "type": "escolha",
     "named": false
   },
   {
-    "type": "extends",
+    "type": "espere",
+    "named": false
+  },
+  {
+    "type": "estende",
+    "named": false
+  },
+  {
+    "type": "estático",
+    "named": false
+  },
+  {
+    "type": "exportar",
     "named": false
   },
   {
@@ -3299,19 +3319,15 @@
     "named": true
   },
   {
-    "type": "finally",
+    "type": "faça",
     "named": false
   },
   {
-    "type": "for",
+    "type": "finalmente",
     "named": false
   },
   {
-    "type": "from",
-    "named": false
-  },
-  {
-    "type": "function",
+    "type": "função",
     "named": false
   },
   {
@@ -3327,19 +3343,11 @@
     "named": true
   },
   {
-    "type": "if",
+    "type": "importar",
     "named": false
   },
   {
-    "type": "import",
-    "named": false
-  },
-  {
-    "type": "in",
-    "named": false
-  },
-  {
-    "type": "instanceof",
+    "type": "instânciade",
     "named": false
   },
   {
@@ -3347,11 +3355,11 @@
     "named": true
   },
   {
-    "type": "let",
+    "type": "lance",
     "named": false
   },
   {
-    "type": "new",
+    "type": "novo",
     "named": false
   },
   {
@@ -3363,12 +3371,24 @@
     "named": true
   },
   {
-    "type": "of",
+    "type": "padrão",
+    "named": false
+  },
+  {
+    "type": "para",
+    "named": false
+  },
+  {
+    "type": "pare",
     "named": false
   },
   {
     "type": "private_property_identifier",
     "named": true
+  },
+  {
+    "type": "produz",
+    "named": false
   },
   {
     "type": "property_identifier",
@@ -3383,7 +3403,15 @@
     "named": true
   },
   {
-    "type": "return",
+    "type": "retorne",
+    "named": false
+  },
+  {
+    "type": "se",
+    "named": false
+  },
+  {
+    "type": "senão",
     "named": false
   },
   {
@@ -3403,10 +3431,6 @@
     "named": true
   },
   {
-    "type": "static",
-    "named": false
-  },
-  {
     "type": "string_fragment",
     "named": true
   },
@@ -3415,11 +3439,7 @@
     "named": true
   },
   {
-    "type": "switch",
-    "named": false
-  },
-  {
-    "type": "target",
+    "type": "tente",
     "named": false
   },
   {
@@ -3427,20 +3447,12 @@
     "named": true
   },
   {
-    "type": "throw",
+    "type": "tipode",
     "named": false
   },
   {
     "type": "true",
     "named": true
-  },
-  {
-    "type": "try",
-    "named": false
-  },
-  {
-    "type": "typeof",
-    "named": false
   },
   {
     "type": "undefined",
@@ -3451,19 +3463,7 @@
     "named": false
   },
   {
-    "type": "void",
-    "named": false
-  },
-  {
-    "type": "while",
-    "named": false
-  },
-  {
-    "type": "with",
-    "named": false
-  },
-  {
-    "type": "yield",
+    "type": "vazio",
     "named": false
   },
   {

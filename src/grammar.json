@@ -1,5 +1,5 @@
 {
-  "name": "javascript",
+  "name": "ptbrjavascript",
   "word": "identifier",
   "rules": {
     "program": {
@@ -38,7 +38,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "export"
+              "value": "exportar"
             },
             {
               "type": "CHOICE",
@@ -132,7 +132,7 @@
             },
             {
               "type": "STRING",
-              "value": "export"
+              "value": "exportar"
             },
             {
               "type": "CHOICE",
@@ -150,7 +150,7 @@
                   "members": [
                     {
                       "type": "STRING",
-                      "value": "default"
+                      "value": "padrão"
                     },
                     {
                       "type": "CHOICE",
@@ -277,7 +277,7 @@
               "members": [
                 {
                   "type": "STRING",
-                  "value": "as"
+                  "value": "como"
                 },
                 {
                   "type": "FIELD",
@@ -325,7 +325,7 @@
       "type": "TOKEN",
       "content": {
         "type": "STRING",
-        "value": "import"
+        "value": "importar"
       }
     },
     "import_statement": {
@@ -333,7 +333,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "import"
+          "value": "importar"
         },
         {
           "type": "CHOICE",
@@ -434,7 +434,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "from"
+          "value": "de"
         },
         {
           "type": "FIELD",
@@ -455,7 +455,7 @@
         },
         {
           "type": "STRING",
-          "value": "as"
+          "value": "como"
         },
         {
           "type": "SYMBOL",
@@ -678,7 +678,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "let"
+                "value": "def"
               },
               {
                 "type": "STRING",
@@ -793,7 +793,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "else"
+          "value": "senão"
         },
         {
           "type": "SYMBOL",
@@ -809,7 +809,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "if"
+            "value": "se"
           },
           {
             "type": "FIELD",
@@ -851,7 +851,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "switch"
+          "value": "escolha"
         },
         {
           "type": "FIELD",
@@ -876,7 +876,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "for"
+          "value": "para"
         },
         {
           "type": "STRING",
@@ -959,14 +959,14 @@
       "members": [
         {
           "type": "STRING",
-          "value": "for"
+          "value": "para"
         },
         {
           "type": "CHOICE",
           "members": [
             {
               "type": "STRING",
-              "value": "await"
+              "value": "espere"
             },
             {
               "type": "BLANK"
@@ -1067,7 +1067,7 @@
                     "members": [
                       {
                         "type": "STRING",
-                        "value": "let"
+                        "value": "def"
                       },
                       {
                         "type": "STRING",
@@ -1105,11 +1105,11 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "in"
+                "value": "em"
               },
               {
                 "type": "STRING",
-                "value": "of"
+                "value": "do"
               }
             ]
           }
@@ -1133,7 +1133,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "while"
+          "value": "enquanto"
         },
         {
           "type": "FIELD",
@@ -1158,7 +1158,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "do"
+          "value": "faça"
         },
         {
           "type": "FIELD",
@@ -1170,7 +1170,7 @@
         },
         {
           "type": "STRING",
-          "value": "while"
+          "value": "enquanto"
         },
         {
           "type": "FIELD",
@@ -1191,7 +1191,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "try"
+          "value": "tente"
         },
         {
           "type": "FIELD",
@@ -1240,7 +1240,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "with"
+          "value": "com"
         },
         {
           "type": "FIELD",
@@ -1265,7 +1265,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "break"
+          "value": "pare"
         },
         {
           "type": "FIELD",
@@ -1333,7 +1333,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "debugger"
+          "value": "depurador"
         },
         {
           "type": "SYMBOL",
@@ -1346,7 +1346,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "return"
+          "value": "retorne"
         },
         {
           "type": "CHOICE",
@@ -1371,7 +1371,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "throw"
+          "value": "lance"
         },
         {
           "type": "SYMBOL",
@@ -1464,7 +1464,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "case"
+          "value": "caso"
         },
         {
           "type": "FIELD",
@@ -1496,7 +1496,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "default"
+          "value": "padrão"
         },
         {
           "type": "STRING",
@@ -1520,7 +1520,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "catch"
+          "value": "capture"
         },
         {
           "type": "CHOICE",
@@ -1575,7 +1575,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "finally"
+          "value": "finalmente"
         },
         {
           "type": "FIELD",
@@ -1780,7 +1780,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "yield"
+            "value": "produz"
           },
           {
             "type": "CHOICE",
@@ -2724,7 +2724,7 @@
           },
           {
             "type": "STRING",
-            "value": "class"
+            "value": "classe"
           },
           {
             "type": "FIELD",
@@ -2784,7 +2784,7 @@
           },
           {
             "type": "STRING",
-            "value": "class"
+            "value": "classe"
           },
           {
             "type": "FIELD",
@@ -2834,7 +2834,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "extends"
+          "value": "estende"
         },
         {
           "type": "SYMBOL",
@@ -2853,7 +2853,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "async"
+                "value": "assinc"
               },
               {
                 "type": "BLANK"
@@ -2862,7 +2862,7 @@
           },
           {
             "type": "STRING",
-            "value": "function"
+            "value": "função"
           },
           {
             "type": "FIELD",
@@ -2906,7 +2906,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "async"
+                "value": "assinc"
               },
               {
                 "type": "BLANK"
@@ -2915,7 +2915,7 @@
           },
           {
             "type": "STRING",
-            "value": "function"
+            "value": "função"
           },
           {
             "type": "FIELD",
@@ -2963,7 +2963,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "async"
+                "value": "assinc"
               },
               {
                 "type": "BLANK"
@@ -2972,7 +2972,7 @@
           },
           {
             "type": "STRING",
-            "value": "function"
+            "value": "função"
           },
           {
             "type": "STRING",
@@ -3020,7 +3020,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "async"
+                "value": "assinc"
               },
               {
                 "type": "BLANK"
@@ -3029,7 +3029,7 @@
           },
           {
             "type": "STRING",
-            "value": "function"
+            "value": "função"
           },
           {
             "type": "STRING",
@@ -3078,7 +3078,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "async"
+              "value": "assinc"
             },
             {
               "type": "BLANK"
@@ -3236,7 +3236,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "new"
+            "value": "novo"
           },
           {
             "type": "FIELD",
@@ -3286,7 +3286,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "await"
+            "value": "espere"
           },
           {
             "type": "SYMBOL",
@@ -4472,7 +4472,7 @@
                 "name": "operator",
                 "content": {
                   "type": "STRING",
-                  "value": "instanceof"
+                  "value": "instânciade"
                 }
               },
               {
@@ -4505,7 +4505,7 @@
                 "name": "operator",
                 "content": {
                   "type": "STRING",
-                  "value": "in"
+                  "value": "em"
                 }
               },
               {
@@ -4551,11 +4551,11 @@
                 },
                 {
                   "type": "STRING",
-                  "value": "typeof"
+                  "value": "tipode"
                 },
                 {
                   "type": "STRING",
-                  "value": "void"
+                  "value": "vazio"
                 },
                 {
                   "type": "STRING",
@@ -5564,7 +5564,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "new"
+          "value": "novo"
         },
         {
           "type": "STRING",
@@ -5572,13 +5572,13 @@
         },
         {
           "type": "STRING",
-          "value": "target"
+          "value": "alvo"
         }
       ]
     },
     "this": {
       "type": "STRING",
-      "value": "this"
+      "value": "isto"
     },
     "super": {
       "type": "STRING",
@@ -5586,15 +5586,15 @@
     },
     "true": {
       "type": "STRING",
-      "value": "true"
+      "value": "verdadeiro"
     },
     "false": {
       "type": "STRING",
-      "value": "false"
+      "value": "falso"
     },
     "null": {
       "type": "STRING",
-      "value": "null"
+      "value": "nulo"
     },
     "undefined": {
       "type": "STRING",
@@ -5885,7 +5885,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "static"
+              "value": "estático"
             },
             {
               "type": "BLANK"
@@ -6030,7 +6030,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "static"
+              "value": "estático"
             },
             {
               "type": "BLANK"
@@ -6042,7 +6042,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "async"
+              "value": "assinc"
             },
             {
               "type": "BLANK"
@@ -6228,15 +6228,15 @@
         },
         {
           "type": "STRING",
-          "value": "async"
+          "value": "assinc"
         },
         {
           "type": "STRING",
-          "value": "static"
+          "value": "estático"
         },
         {
           "type": "STRING",
-          "value": "export"
+          "value": "exportar"
         }
       ]
     },
