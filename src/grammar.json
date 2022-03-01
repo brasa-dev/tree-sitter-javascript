@@ -1,5 +1,5 @@
 {
-  "name": "ptbrjavascript",
+  "name": "roseta_javascript",
   "word": "identifier",
   "rules": {
     "program": {
@@ -4848,6 +4848,10 @@
         ]
       }
     },
+    "white_space": {
+      "type": "PATTERN",
+      "value": "[\\s\\p{Zs}\\uFEFF\\u2060\\u200B]"
+    },
     "template_string": {
       "type": "SEQ",
       "members": [
@@ -6260,8 +6264,8 @@
       "name": "comment"
     },
     {
-      "type": "PATTERN",
-      "value": "[\\s\\p{Zs}\\uFEFF\\u2060\\u200B]"
+      "type": "SYMBOL",
+      "name": "white_space"
     }
   ],
   "conflicts": [

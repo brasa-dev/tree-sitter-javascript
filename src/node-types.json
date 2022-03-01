@@ -3467,6 +3467,10 @@
     "named": false
   },
   {
+    "type": "white_space",
+    "named": true
+  },
+  {
     "type": "{",
     "named": false
   },

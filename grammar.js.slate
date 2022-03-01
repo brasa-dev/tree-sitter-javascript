@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: '{{dialect}}javascript',
+  name: 'roseta_javascript',
 
   externals: $ => [
     $._automatic_semicolon,
@@ -9,7 +9,7 @@ module.exports = grammar({
 
   extras: $ => [
     $.comment,
-    /[\s\p{Zs}\uFEFF\u2060\u200B]/,
+    $.white_space,
   ],
 
   supertypes: $ => [
@@ -913,6 +913,8 @@ module.exports = grammar({
         '/'
       )
     )),
+
+    white_space: $ => /[\s\p{Zs}\uFEFF\u2060\u200B]/,
 
     template_string: $ => seq(
       '`',
