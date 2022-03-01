@@ -1,16 +1,12 @@
 SLATE="./grammar.js.slate"
 FILE="./grammar.js"
-
-SCANNER="./src/scanner.c"
 HIGHLIGHT="./queries/highlights.scm"
-
 
 DIALECT=$1
 
 # Build language
 
 cp $FILE.slate $FILE
-cp $SCANNER.slate $SCANNER
 cp $HIGHLIGHT.slate $HIGHLIGHT
 
 replace() {
@@ -22,9 +18,6 @@ jq -r '.lexicon | to_entries[] | "\(.key) \(.value)"' $DIALECT \
 
 jq -r '.dialect' $DIALECT \
   | xargs -n 1 sh -c $'sed -i -e "s/{{dialect}}/$0/g" '$FILE
-
-jq -r '.dialect' $DIALECT \
-  | xargs -n 1 sh -c $'sed -i -e "s/{{dialect}}/$0/g" '$SCANNER
 
 jq -r '.lexicon | to_entries[] | "\(.key) \(.value)"' $DIALECT \
   | xargs -n 2 sh -c $'sed -i -e "s/{{$0}}/$1/g" '$HIGHLIGHT
