@@ -1,0 +1,35 @@
+{
+  "name": "tree-sitter-roseta-javascript",
+  "version": "0.0.1",
+  "description": "Javascript grammar builder for node-tree-sitter",
+  "main": "bindings/node",
+  "keywords": [
+    "parser",
+    "lexer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.12.1"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  },
+  "scripts": {
+    "test": "tree-sitter test && script/parse-examples",
+    "test-windows": "tree-sitter test"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.brasa",
+      "file-types": [
+        "brasa"
+      ],
+      "highlights": [
+        "queries/highlights-jsx.scm",
+        "queries/highlights-params.scm",
+        "queries/highlights.scm"
+      ],
+      "injection-regex": "^brasa$"
+    }
+  ]
+}

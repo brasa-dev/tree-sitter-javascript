@@ -6061,11 +6061,11 @@
               "members": [
                 {
                   "type": "STRING",
-                  "value": "get"
+                  "value": "pegue"
                 },
                 {
                   "type": "STRING",
-                  "value": "set"
+                  "value": "defina"
                 },
                 {
                   "type": "STRING",
@@ -6224,11 +6224,11 @@
       "members": [
         {
           "type": "STRING",
-          "value": "get"
+          "value": "pegue"
         },
         {
           "type": "STRING",
-          "value": "set"
+          "value": "defina"
         },
         {
           "type": "STRING",

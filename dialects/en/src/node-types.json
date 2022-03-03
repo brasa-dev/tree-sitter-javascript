@@ -3271,6 +3271,10 @@
     "named": false
   },
   {
+    "type": "defina",
+    "named": false
+  },
+  {
     "type": "delete",
     "named": false
   },
@@ -3331,10 +3335,6 @@
     "named": false
   },
   {
-    "type": "get",
-    "named": false
-  },
-  {
     "type": "hash_bang_line",
     "named": true
   },
@@ -3383,6 +3383,10 @@
     "named": false
   },
   {
+    "type": "pegue",
+    "named": false
+  },
+  {
     "type": "private_property_identifier",
     "named": true
   },
@@ -3412,10 +3416,6 @@
   },
   {
     "type": "senão",
-    "named": false
-  },
-  {
-    "type": "set",
     "named": false
   },
   {
