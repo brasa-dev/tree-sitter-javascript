@@ -1,7 +1,7 @@
 {
-  "name": "tree-sitter-roseta-javascript",
+  "name": "tree-sitter-roseta-javascript-pt_br",
   "version": "0.0.1",
-  "description": "Javascript grammar builder for node-tree-sitter",
+  "description": "Roseta-Javascript pt_br grammar for node-tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parser",

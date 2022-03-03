@@ -1,17 +1,25 @@
 for dialect in ./dialects/*; do
   [ ! -d $dialect ] && continue
 
-  DIALECT=${dialect##./dialects/}
+  DIALECT=${dialect##./dialects/tree-sitter-roseta-javascript-}
+  DEF="../roseta-javascript-dialects/build/to_$DIALECT.json"
+
+  [ ! -f $DEF ] && continue
+
   echo $DIALECT
 
-  DEF=../roseta-javascript-dialects/build/to_$DIALECT.json
+  PKG="package.json"
   GRAMMAR="grammar.js"
   HIGHLIGHT="highlights.scm"
 
   # Build language
 
+  cp $PKG.slate $dialect/$PKG
   cp $GRAMMAR.slate $dialect/$GRAMMAR
-  cp $HIGHLIGHT.slate $dialect/highlights/$HIGHLIGHT
+  cp $HIGHLIGHT.slate $dialect/queries/$HIGHLIGHT
+
+  jq -r '{dialect: .dialect, extension: .extension} | to_entries[] | "\(.key) \(.value)"' $DEF \
+    | xargs -n 2 sh -c $'sed -i -e "s/{{$0}}/$1/g" '$dialect/$PKG
 
   jq -r '.lexicon | to_entries[] | "\(.key) \(.value)"' $DEF \
     | xargs -n 2 sh -c $'sed -i -e "s/{{$0}}/$1/g" '$dialect/$GRAMMAR
@@ -20,7 +28,7 @@ for dialect in ./dialects/*; do
     | xargs -n 1 sh -c $'sed -i -e "s/{{dialect}}/$0/g" '$dialect/$GRAMMAR
 
   jq -r '.lexicon | to_entries[] | "\(.key) \(.value)"' $DEF \
-    | xargs -n 2 sh -c $'sed -i -e "s/{{$0}}/$1/g" '$dialect/highlights/$HIGHLIGHT
+    | xargs -n 2 sh -c $'sed -i -e "s/{{$0}}/$1/g" '$dialect/queries/$HIGHLIGHT
 
   pushd $dialect
 

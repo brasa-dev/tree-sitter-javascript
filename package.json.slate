@@ -1,7 +1,7 @@
 {
-  "name": "tree-sitter-roseta-javascript",
+  "name": "tree-sitter-roseta-javascript-{{dialect}}",
   "version": "0.0.1",
-  "description": "Javascript grammar builder for node-tree-sitter",
+  "description": "Roseta-Javascript {{dialect}} grammar for node-tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parser",
@@ -20,16 +20,16 @@
   },
   "tree-sitter": [
     {
-      "scope": "source.brasa",
+      "scope": "source.{{extension}}",
       "file-types": [
-        "brasa"
+        "{{extension}}"
       ],
       "highlights": [
         "queries/highlights-jsx.scm",
         "queries/highlights-params.scm",
         "queries/highlights.scm"
       ],
-      "injection-regex": "^brasa$"
+      "injection-regex": "^{{extension}}$"
     }
   ]
 }

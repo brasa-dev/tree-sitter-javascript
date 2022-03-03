@@ -696,11 +696,11 @@
             "named": false
           },
           {
-            "type": "em",
+            "type": "in",
             "named": false
           },
           {
-            "type": "instânciade",
+            "type": "instanceof",
             "named": false
           },
           {
@@ -1248,7 +1248,7 @@
             "named": false
           },
           {
-            "type": "def",
+            "type": "let",
             "named": false
           },
           {
@@ -1296,11 +1296,11 @@
         "required": true,
         "types": [
           {
-            "type": "do",
+            "type": "in",
             "named": false
           },
           {
-            "type": "em",
+            "type": "of",
             "named": false
           }
         ]
@@ -1975,7 +1975,7 @@
             "named": false
           },
           {
-            "type": "def",
+            "type": "let",
             "named": false
           }
         ]
@@ -2841,11 +2841,11 @@
             "named": false
           },
           {
-            "type": "tipode",
+            "type": "typeof",
             "named": false
           },
           {
-            "type": "vazio",
+            "type": "void",
             "named": false
           },
           {
@@ -3223,36 +3223,36 @@
     "named": false
   },
   {
-    "type": "alvo",
+    "type": "as",
     "named": false
   },
   {
-    "type": "assinc",
+    "type": "async",
     "named": false
   },
   {
-    "type": "capture",
+    "type": "await",
     "named": false
   },
   {
-    "type": "caso",
+    "type": "break",
     "named": false
   },
   {
-    "type": "classe",
+    "type": "case",
     "named": false
   },
   {
-    "type": "com",
+    "type": "catch",
+    "named": false
+  },
+  {
+    "type": "class",
     "named": false
   },
   {
     "type": "comment",
     "named": true
-  },
-  {
-    "type": "como",
-    "named": false
   },
   {
     "type": "const",
@@ -3263,15 +3263,11 @@
     "named": false
   },
   {
-    "type": "de",
+    "type": "debugger",
     "named": false
   },
   {
-    "type": "def",
-    "named": false
-  },
-  {
-    "type": "defina",
+    "type": "default",
     "named": false
   },
   {
@@ -3279,19 +3275,11 @@
     "named": false
   },
   {
-    "type": "depurador",
-    "named": false
-  },
-  {
     "type": "do",
     "named": false
   },
   {
-    "type": "em",
-    "named": false
-  },
-  {
-    "type": "enquanto",
+    "type": "else",
     "named": false
   },
   {
@@ -3299,23 +3287,11 @@
     "named": true
   },
   {
-    "type": "escolha",
+    "type": "export",
     "named": false
   },
   {
-    "type": "espere",
-    "named": false
-  },
-  {
-    "type": "estende",
-    "named": false
-  },
-  {
-    "type": "estático",
-    "named": false
-  },
-  {
-    "type": "exportar",
+    "type": "extends",
     "named": false
   },
   {
@@ -3323,15 +3299,23 @@
     "named": true
   },
   {
-    "type": "faça",
+    "type": "finally",
     "named": false
   },
   {
-    "type": "finalmente",
+    "type": "for",
     "named": false
   },
   {
-    "type": "função",
+    "type": "from",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
+    "type": "get",
     "named": false
   },
   {
@@ -3343,11 +3327,19 @@
     "named": true
   },
   {
-    "type": "importar",
+    "type": "if",
     "named": false
   },
   {
-    "type": "instânciade",
+    "type": "import",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "instanceof",
     "named": false
   },
   {
@@ -3355,11 +3347,11 @@
     "named": true
   },
   {
-    "type": "lance",
+    "type": "let",
     "named": false
   },
   {
-    "type": "novo",
+    "type": "new",
     "named": false
   },
   {
@@ -3371,28 +3363,12 @@
     "named": true
   },
   {
-    "type": "padrão",
-    "named": false
-  },
-  {
-    "type": "para",
-    "named": false
-  },
-  {
-    "type": "pare",
-    "named": false
-  },
-  {
-    "type": "pegue",
+    "type": "of",
     "named": false
   },
   {
     "type": "private_property_identifier",
     "named": true
-  },
-  {
-    "type": "produz",
-    "named": false
   },
   {
     "type": "property_identifier",
@@ -3407,15 +3383,11 @@
     "named": true
   },
   {
-    "type": "retorne",
+    "type": "return",
     "named": false
   },
   {
-    "type": "se",
-    "named": false
-  },
-  {
-    "type": "senão",
+    "type": "set",
     "named": false
   },
   {
@@ -3431,6 +3403,10 @@
     "named": true
   },
   {
+    "type": "static",
+    "named": false
+  },
+  {
     "type": "string_fragment",
     "named": true
   },
@@ -3439,7 +3415,11 @@
     "named": true
   },
   {
-    "type": "tente",
+    "type": "switch",
+    "named": false
+  },
+  {
+    "type": "target",
     "named": false
   },
   {
@@ -3447,12 +3427,20 @@
     "named": true
   },
   {
-    "type": "tipode",
+    "type": "throw",
     "named": false
   },
   {
     "type": "true",
     "named": true
+  },
+  {
+    "type": "try",
+    "named": false
+  },
+  {
+    "type": "typeof",
+    "named": false
   },
   {
     "type": "undefined",
@@ -3463,12 +3451,24 @@
     "named": false
   },
   {
-    "type": "vazio",
+    "type": "void",
+    "named": false
+  },
+  {
+    "type": "while",
     "named": false
   },
   {
     "type": "white_space",
     "named": true
+  },
+  {
+    "type": "with",
+    "named": false
+  },
+  {
+    "type": "yield",
+    "named": false
   },
   {
     "type": "{",

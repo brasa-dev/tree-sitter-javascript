@@ -38,7 +38,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "exportar"
+              "value": "export"
             },
             {
               "type": "CHOICE",
@@ -132,7 +132,7 @@
             },
             {
               "type": "STRING",
-              "value": "exportar"
+              "value": "export"
             },
             {
               "type": "CHOICE",
@@ -150,7 +150,7 @@
                   "members": [
                     {
                       "type": "STRING",
-                      "value": "padrão"
+                      "value": "default"
                     },
                     {
                       "type": "CHOICE",
@@ -277,7 +277,7 @@
               "members": [
                 {
                   "type": "STRING",
-                  "value": "como"
+                  "value": "as"
                 },
                 {
                   "type": "FIELD",
@@ -325,7 +325,7 @@
       "type": "TOKEN",
       "content": {
         "type": "STRING",
-        "value": "importar"
+        "value": "import"
       }
     },
     "import_statement": {
@@ -333,7 +333,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "importar"
+          "value": "import"
         },
         {
           "type": "CHOICE",
@@ -434,7 +434,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "de"
+          "value": "from"
         },
         {
           "type": "FIELD",
@@ -455,7 +455,7 @@
         },
         {
           "type": "STRING",
-          "value": "como"
+          "value": "as"
         },
         {
           "type": "SYMBOL",
@@ -678,7 +678,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "def"
+                "value": "let"
               },
               {
                 "type": "STRING",
@@ -793,7 +793,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "senão"
+          "value": "else"
         },
         {
           "type": "SYMBOL",
@@ -809,7 +809,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "se"
+            "value": "if"
           },
           {
             "type": "FIELD",
@@ -851,7 +851,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "escolha"
+          "value": "switch"
         },
         {
           "type": "FIELD",
@@ -876,7 +876,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "para"
+          "value": "for"
         },
         {
           "type": "STRING",
@@ -959,14 +959,14 @@
       "members": [
         {
           "type": "STRING",
-          "value": "para"
+          "value": "for"
         },
         {
           "type": "CHOICE",
           "members": [
             {
               "type": "STRING",
-              "value": "espere"
+              "value": "await"
             },
             {
               "type": "BLANK"
@@ -1067,7 +1067,7 @@
                     "members": [
                       {
                         "type": "STRING",
-                        "value": "def"
+                        "value": "let"
                       },
                       {
                         "type": "STRING",
@@ -1105,11 +1105,11 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "em"
+                "value": "in"
               },
               {
                 "type": "STRING",
-                "value": "do"
+                "value": "of"
               }
             ]
           }
@@ -1133,7 +1133,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "enquanto"
+          "value": "while"
         },
         {
           "type": "FIELD",
@@ -1158,7 +1158,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "faça"
+          "value": "do"
         },
         {
           "type": "FIELD",
@@ -1170,7 +1170,7 @@
         },
         {
           "type": "STRING",
-          "value": "enquanto"
+          "value": "while"
         },
         {
           "type": "FIELD",
@@ -1191,7 +1191,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "tente"
+          "value": "try"
         },
         {
           "type": "FIELD",
@@ -1240,7 +1240,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "com"
+          "value": "with"
         },
         {
           "type": "FIELD",
@@ -1265,7 +1265,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "pare"
+          "value": "break"
         },
         {
           "type": "FIELD",
@@ -1333,7 +1333,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "depurador"
+          "value": "debugger"
         },
         {
           "type": "SYMBOL",
@@ -1346,7 +1346,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "retorne"
+          "value": "return"
         },
         {
           "type": "CHOICE",
@@ -1371,7 +1371,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "lance"
+          "value": "throw"
         },
         {
           "type": "SYMBOL",
@@ -1464,7 +1464,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "caso"
+          "value": "case"
         },
         {
           "type": "FIELD",
@@ -1496,7 +1496,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "padrão"
+          "value": "default"
         },
         {
           "type": "STRING",
@@ -1520,7 +1520,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "capture"
+          "value": "catch"
         },
         {
           "type": "CHOICE",
@@ -1575,7 +1575,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "finalmente"
+          "value": "finally"
         },
         {
           "type": "FIELD",
@@ -1780,7 +1780,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "produz"
+            "value": "yield"
           },
           {
             "type": "CHOICE",
@@ -2724,7 +2724,7 @@
           },
           {
             "type": "STRING",
-            "value": "classe"
+            "value": "class"
           },
           {
             "type": "FIELD",
@@ -2784,7 +2784,7 @@
           },
           {
             "type": "STRING",
-            "value": "classe"
+            "value": "class"
           },
           {
             "type": "FIELD",
@@ -2834,7 +2834,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "estende"
+          "value": "extends"
         },
         {
           "type": "SYMBOL",
@@ -2853,7 +2853,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "assinc"
+                "value": "async"
               },
               {
                 "type": "BLANK"
@@ -2862,7 +2862,7 @@
           },
           {
             "type": "STRING",
-            "value": "função"
+            "value": "function"
           },
           {
             "type": "FIELD",
@@ -2906,7 +2906,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "assinc"
+                "value": "async"
               },
               {
                 "type": "BLANK"
@@ -2915,7 +2915,7 @@
           },
           {
             "type": "STRING",
-            "value": "função"
+            "value": "function"
           },
           {
             "type": "FIELD",
@@ -2963,7 +2963,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "assinc"
+                "value": "async"
               },
               {
                 "type": "BLANK"
@@ -2972,7 +2972,7 @@
           },
           {
             "type": "STRING",
-            "value": "função"
+            "value": "function"
           },
           {
             "type": "STRING",
@@ -3020,7 +3020,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "assinc"
+                "value": "async"
               },
               {
                 "type": "BLANK"
@@ -3029,7 +3029,7 @@
           },
           {
             "type": "STRING",
-            "value": "função"
+            "value": "function"
           },
           {
             "type": "STRING",
@@ -3078,7 +3078,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "assinc"
+              "value": "async"
             },
             {
               "type": "BLANK"
@@ -3236,7 +3236,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "novo"
+            "value": "new"
           },
           {
             "type": "FIELD",
@@ -3286,7 +3286,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "espere"
+            "value": "await"
           },
           {
             "type": "SYMBOL",
@@ -4472,7 +4472,7 @@
                 "name": "operator",
                 "content": {
                   "type": "STRING",
-                  "value": "instânciade"
+                  "value": "instanceof"
                 }
               },
               {
@@ -4505,7 +4505,7 @@
                 "name": "operator",
                 "content": {
                   "type": "STRING",
-                  "value": "em"
+                  "value": "in"
                 }
               },
               {
@@ -4551,11 +4551,11 @@
                 },
                 {
                   "type": "STRING",
-                  "value": "tipode"
+                  "value": "typeof"
                 },
                 {
                   "type": "STRING",
-                  "value": "vazio"
+                  "value": "void"
                 },
                 {
                   "type": "STRING",
@@ -5568,7 +5568,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "novo"
+          "value": "new"
         },
         {
           "type": "STRING",
@@ -5576,13 +5576,13 @@
         },
         {
           "type": "STRING",
-          "value": "alvo"
+          "value": "target"
         }
       ]
     },
     "this": {
       "type": "STRING",
-      "value": "isto"
+      "value": "this"
     },
     "super": {
       "type": "STRING",
@@ -5590,15 +5590,15 @@
     },
     "true": {
       "type": "STRING",
-      "value": "verdadeiro"
+      "value": "true"
     },
     "false": {
       "type": "STRING",
-      "value": "falso"
+      "value": "false"
     },
     "null": {
       "type": "STRING",
-      "value": "nulo"
+      "value": "null"
     },
     "undefined": {
       "type": "STRING",
@@ -5889,7 +5889,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "estático"
+              "value": "static"
             },
             {
               "type": "BLANK"
@@ -6034,7 +6034,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "estático"
+              "value": "static"
             },
             {
               "type": "BLANK"
@@ -6046,7 +6046,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "assinc"
+              "value": "async"
             },
             {
               "type": "BLANK"
@@ -6061,11 +6061,11 @@
               "members": [
                 {
                   "type": "STRING",
-                  "value": "pegue"
+                  "value": "get"
                 },
                 {
                   "type": "STRING",
-                  "value": "defina"
+                  "value": "set"
                 },
                 {
                   "type": "STRING",
@@ -6224,23 +6224,23 @@
       "members": [
         {
           "type": "STRING",
-          "value": "pegue"
+          "value": "get"
         },
         {
           "type": "STRING",
-          "value": "defina"
+          "value": "set"
         },
         {
           "type": "STRING",
-          "value": "assinc"
+          "value": "async"
         },
         {
           "type": "STRING",
-          "value": "estático"
+          "value": "static"
         },
         {
           "type": "STRING",
-          "value": "exportar"
+          "value": "export"
         }
       ]
     },
