@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for dialect in ./dialects/*; do
   [ ! -d $dialect ] && continue
 

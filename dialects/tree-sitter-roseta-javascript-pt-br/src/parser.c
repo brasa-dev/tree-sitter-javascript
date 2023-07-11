@@ -5,7 +5,7 @@
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 #endif
 
-#define LANGUAGE_VERSION 13
+#define LANGUAGE_VERSION 14
 #define STATE_COUNT 1581
 #define LARGE_STATE_COUNT 293
 #define SYMBOL_COUNT 243
@@ -78266,6 +78266,7 @@ extern const TSLanguage *tree_sitter_roseta_javascript(void) {
       tree_sitter_roseta_javascript_external_scanner_serialize,
       tree_sitter_roseta_javascript_external_scanner_deserialize,
     },
+    .primary_state_ids = ts_primary_state_ids,
   };
   return &language;
 }
